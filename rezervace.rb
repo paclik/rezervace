@@ -2,8 +2,6 @@
 require 'digest'
 
 
-puts "Hello world from Cloud9"
-
 puts checksum = Digest::MD5.hexdigest("Your_account_nameYour_account_password#{'user_name@client.com'}");
 
 
